@@ -119,7 +119,7 @@ If you are not familiar with this procedure, see [How to retrieve a certificate'
 
 ##Configuring user provisioning
   
-In order to enable Azure AD users to log into **Zendesk**, they must be provisioned into **Zendesk**.  
+In order to enable Azure AD users to log as Admins or Agents into **Zendesk**, they must be provisioned into **Zendesk**.  
 In the case of **Zendesk**, provisioning is a manual task.
 
 ###To provision a user account to Zendesk, perform the following steps:
@@ -132,7 +132,7 @@ In the case of **Zendesk**, provisioning is a manual task.
 
     ![Add user](./media/active-directory-saas-zendesk-tutorial/IC773632.png "Add user")
 
-4.  Type the email address of an existing Azure AD account you want to provision, and then click **Save**.
+4.  Type the email address of an existing Azure AD account you want to provision, set the **Role** to **Admin** or **Agent**, and then click **Save**.
 
     ![New user](./media/active-directory-saas-zendesk-tutorial/IC773633.png "New user")
 
